@@ -70,8 +70,9 @@ class SignalReader:
 if __name__ == "__main__":
     # Placeholder token and channel_id - replace these with actual values
     TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-    CHANNEL_ID = -1001234567890  # Telegram channel/group ID must be an integer
+    CHANNEL_ID = -241782011  # Telegram channel/group ID must be an integer
     
     signal_reader = SignalReader(TOKEN, CHANNEL_ID)
     signal_reader.start()
 # Signal Reader 
+
